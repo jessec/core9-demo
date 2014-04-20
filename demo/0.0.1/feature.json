@@ -11,5 +11,29 @@
       "_id" : "VB9445QRLG12",
       "contentType" : "application/javascript"
     }
+  } ],
+  "configuration" : [ {
+    "id" : "S1JH7QXRC7JQ",
+    "entry" : {
+      "_id" : "S1JH7QXRC7JQ",
+      "configtype" : "pagemodel",
+      "name" : "demo",
+      "templateName" : "demo",
+      "path" : "/demo",
+      "components" : [ {
+        "name" : "demo",
+        "globals" : { }
+      } ]
+    }
+  }, {
+    "id" : "UBME3PRI0EW5",
+    "entry" : {
+      "_id" : "UBME3PRI0EW5",
+      "configtype" : "widget",
+      "name" : "demo",
+      "handleroptions" : { },
+      "templateName" : "site.demo",
+      "template" : "{namespace site}\n\n/**\n *\n **/\n{template .demo}\n\nHello World!\n\n{/template}"
+    }
   } ]
 }
